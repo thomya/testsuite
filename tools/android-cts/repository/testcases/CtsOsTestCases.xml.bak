@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.os" appPackageName="android.os" name="CtsOsTestCases" runner="android.support.test.runner.AndroidJUnitRunner" runtimeHint="0" version="1.0">
+<TestSuite name="android">
+<TestSuite name="os">
+<TestSuite name="cts">
+<TestCase name="AbiTest">
+<Test name="testNo64" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ActivityTestsBase">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="AsyncTaskTest">
+<Test name="testAsyncTask" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAsyncTaskWithTimeout" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCancel" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCancelTooLate" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCancelWithInterrupt" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="BadParcelableExceptionTest">
+<Test name="testBadParcelableException" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="BinderTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testClearCallingIdentity" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFlushPendingCommands" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testInterfaceRelatedMethods" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testJoinThreadPool" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSimpleMethods" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTransact" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="BuildTest">
+<Test name="testBuildConstants" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCpuAbi" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsSecureUserBuild" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="BuildVersionTest">
+<Test name="testBuildFingerprint" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIncremental" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReleaseVersion" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="BundleTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testBundle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testClear" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testClone" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testContainsKey" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDescribeContents" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testEmptyStream" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGet" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetBoolean1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetBoolean2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetBooleanArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetBundle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetByte1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetByte2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetByteArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetChar1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetChar2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetCharArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetCharSequence" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetCharSequenceArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetCharSequenceArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetDouble1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetDouble2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetDoubleArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetFloat1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetFloat2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetFloatArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetInt1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetInt2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetIntArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetIntegerArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetLong1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetLong2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetLongArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetParcelable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetParcelableArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetParcelableArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetSerializableWithMultiDimensionalObjectArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetSerializableWithString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetSerializableWithStringArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetShort1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetShort2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetShortArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetSparseParcelableArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetStringArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetStringArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHasFileDescriptors" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKeySet" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPutAll" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetClassLoader" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSize" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteToParcel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ConditionVariableTest">
+<Test name="testConditionVariable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="CountDownTimerTest">
+<Test name="testCountDownTimer" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCountDownTimerCancel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="CpuFeaturesTest">
+<Test name="testArm64Cpuinfo" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testArm64RequiredHwCaps" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testArmCpuinfo" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="CpuInstructionsTest">
+<Test name="testArmVirtualCounter" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testEmulatedArmCpuFeatures" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="CustomClassLoaderTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCustomDexClassLoader" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCustomPathClassLoader" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="DeadObjectExceptionTest">
+<Test name="testDeadObjectException" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="DebugTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDumpService" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetAndReset" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetMemoryStat" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetMemoryStats" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetRuntimeStat" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetRuntimeStats" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPrintLoadedClasses" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testStartMethodTracing" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testStartNativeTracing" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testThreadCpuTimeNanos" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWaitingForDebugger" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="Debug_InstructionCountTest">
+<Test name="testDebugInstructionCount" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="EnvironmentTest">
+<Test name="testEnvironment" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testNoTmpDir" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="FileAccessPermissionTest">
+<Test name="testAccessAppDataDir" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testApksAlwaysReadable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSystemDirAccess" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="FileObserverTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileObserver" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="HandlerTest">
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDispatchMessage1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDispatchMessage2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDump" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetLooper" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHasMessagesWithInt" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHasMessagesWithObject" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtainMessage" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtainMessageWithInt" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtainMessageWithIntObject" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtainMessageWithMutiInt" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtainMessageWithMutiIntObject" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPost" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPostAtFrontOfQueue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPostAtTime1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPostAtTime2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPostDelayed" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveCallbacks" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveCallbacksAndMessages" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveCallbacksWithObject" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMessages" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMessagesWithObject" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendEmptyMessage" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendEmptyMessageAtTime" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendEmptyMessageDelayed" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessage" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessageAtFrontOfQueue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessageAtTime" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessageDelayed" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="HandlerThreadTest">
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetThreadId" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="HardwareNameTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHardwareNameIsSet" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="LooperTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDump" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetMainLooper" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetQueue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsCurrentThread" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testLoop" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMyLooper" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMyQueue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPrepare" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPrepareMainLooper" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testQuit" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetMessageLogging" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="MemoryFileTest">
+<Test name="testAllowPurging" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetOutputStream" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testLength" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadBytes" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteBytes" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="MessageQueueTest">
+<Test name="testAddIdleHandler" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAtFrontOfQueue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileDescriptorCallbacks" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsIdle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMessageOrder" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPathologicalFileDescriptorReuseCallbacks1" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPathologicalFileDescriptorReuseCallbacks2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPathologicalFileDescriptorReuseCallbacks3" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPathologicalFileDescriptorReuseCallbacks4" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRegisterFileDescriptorCallbackThrowsWhenCallbackIsNull" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRegisterFileDescriptorCallbackThrowsWhenFdIsNull" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReleaseSyncBarrierThrowsIfTokenNotValid" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveIdleHandler" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSyncBarriers" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testUnregisterFileDescriptorCallbackDoesNothingWhenFdNotRegistered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testUnregisterFileDescriptorCallbackThrowsWhenFdIsNull" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="MessageTest">
+<Test name="testAccessMessageProperties" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAsynchronous" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCopyFrom" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain3" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain4" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain5" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain6" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain7" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain8" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPeekData" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRecycle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRecycleThrowsIfMessageAlreadyRecycled" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRecycleThrowsIfMessageIsBeingDelivered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessageThrowsIfMessageAlreadyRecycled" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendMessageThrowsIfMessageIsBeingDelivered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendToTarget" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteToParcel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="MessengerTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructorAndEquals" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDescribeContents" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetBinder" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHashCode" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSend" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteMessengerOrNullToParcel" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteToParcel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="NoExecutePermissionTest">
+<Test name="testExecuteCode" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testNoExecuteHeap" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testNoExecuteStack" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelFileDescriptorProcessTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileCrash" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileDetach" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileError" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileLeak" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPipeWriterCrash" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPipeWriterError" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPullPipeNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPushPipeNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketCrash" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketDeathAfterClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketDeathBeforeClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketErrorAfterClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketGiantError" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketMultipleCheck" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelFileDescriptorTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructorAndOpen" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDescribeContents" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileDetach" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileError" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileNamesWithNonBmpChars" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFileNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFromData" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFromDataSkip" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFromSocket" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetFileDescriptor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetStatSize" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPipeError" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPipeNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketErrorAfterClose" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSocketMultipleCheck" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteToParcel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelFileDescriptor_AutoCloseInputStreamTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAutoCloseInputStream" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelFileDescriptor_AutoCloseOutputStreamTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAutoCloseOutputStream" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelFormatExceptionTest">
+<Test name="testParcelFormatException" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ParcelTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAppendFrom" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testBadStream_invalidCreator" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testBadStream_objectDoesNotImplementParcelable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateBinderArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateBinderArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateBooleanArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateByteArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateCharArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateDoubleArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateFloatArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateIntArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateLongArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateStringArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateStringArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateTypedArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCreateTypedArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDataAvail" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDataCapacity" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDataPosition" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDataSize" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testEnforceInterface" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHasFileDescriptor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMarshall" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testObtain" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadArrayList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadBooleanArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadBundle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadBundle2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadByte" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadByteArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadCharArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadDouble" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadDoubleArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadException" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadException2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadFloat" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadFloatArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadHashMap" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadInt" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadIntArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadLong" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadLongArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadParcelable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadParcelableArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadSerializable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadStringArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadStringList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadTypedArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadTypedArray2" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadTypedList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testReadValue" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetDataCapacity" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetDataPosition" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetDataSize" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteBinderArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteBinderList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteByteArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteFileDescriptor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteMap" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteNoException" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteSparseArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteSparseBooleanArray" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteStrongBinder" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteStrongInterface" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="PatternMatcherTest">
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDescribeContents" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetPath" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetType" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMatch" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testToString" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testWriteToParcel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="PowerManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPowerManager" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="PowerManager_WakeLockTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPowerManagerWakeLock" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ProcessTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKillProcess" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMiscMethods" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSendSignal" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="RecoverySystemTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testVerify" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="RemoteCallbackListTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKill" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoteCallbackList" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="RemoteExceptionTest">
+<Test name="testRemoteException" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="ResultReceiverTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testResultReceiver" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="SeccompTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsolatedServicePolicy" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKernelBasicTests" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKernelPrecedenceTests" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKernelTSYNCTests" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testKernelTrapTests" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSeccomp" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testViolateIsolatedServicePolicy" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="SecurityFeaturesTest">
+<Test name="testNoNewPrivs" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPrCapbsetEmpty" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testPrctlDumpable" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="SecurityPatchTest">
+<Test name="testSecurityPatchDate" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSecurityPatchFormat" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSecurityPatchFound" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="StatFsTest">
+<Test name="testStatFs" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="StrictModeTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCleartextNetwork" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testEncryptedNetwork" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="SystemClockTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCurrentThreadTimeMillis" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testElapsedRealtime" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSetCurrentTimeMillis" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSleep" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testUptimeMillis" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TaggedPointerTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testHasTaggedPointer" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TokenWatcherTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCleanUp" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTokenWatcher" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="UsbDebuggingTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testUsbDebugging" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="VibratorTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testVibrateMultiThread" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testVibratePattern" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testVibratorCancel" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="WorkSourceTest">
+<Test name="testAddRawOrdered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAddRawRevOrdered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAddRawUnordered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAddWsOrdered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAddWsRevOrdered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAddWsUnordered" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiEnd" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiFront" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiFull" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiMiddle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiSame" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiSomeSame" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testCombineMultiSomeSameUidsNames" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructEmpty" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructSingle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMultiAll" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMultiEnd" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMultiFront" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMultiFull" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveMultiMiddle" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRemoveNone" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testStripNamesComplex" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testStripNamesFull" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testStripNamesSimple" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+</TestSuite>
+<TestSuite name="storage">
+<TestSuite name="cts">
+<TestCase name="StorageManagerTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAttemptMountNonObb" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAttemptMountObbWrongPackage" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMountAndUnmountObbNormal" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testMountAndUnmountTwoObbs" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,2 @@
+2017.11.09  create git repository for testsuite & tools of tcl tv on https://github.com/thomya/testsuite.git .
+            

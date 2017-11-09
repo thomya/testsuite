@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry name="android.JobScheduler"/>
+  <Entry name="android.core.tests.libcore.package.harmony_annotation"/>
+  <Entry name="android.core.tests.libcore.package.harmony_beans"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_io"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_lang"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_math"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_net"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_nio"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_text"/>
+  <Entry name="android.core.tests.libcore.package.harmony_java_util"/>
+  <Entry name="android.core.tests.libcore.package.harmony_javax_security"/>
+  <Entry name="android.core.tests.libcore.package.harmony_logging"/>
+  <Entry name="android.core.tests.libcore.package.harmony_prefs"/>
+  <Entry name="android.core.tests.libcore.package.harmony_sql"/>
+  <Entry name="android.core.tests.libcore.package.jsr166"/>
+  <Entry name="android.core.tests.libcore.package.okhttp"/>
+  <Entry name="android.display"/>
+  <Entry name="android.host.theme"/>
+  <Entry name="android.jdwp"/>
+  <Entry name="android.location2"/>
+  <Entry name="android.print"/>
+  <Entry name="android.renderscriptlegacy"/>
+  <Entry name="android.signature"/>
+  <Entry name="android.tv"/>
+  <Entry name="android.uiautomation"/>
+  <Entry name="android.uirendering"/>
+</TestPlan>

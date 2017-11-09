@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry exclude="android.app.cts.ActivityManagerTest#testIsRunningInTestHarness" include="android.app.cts.SystemFeaturesTest#testCameraFeatures" name="android.app"/>
+  <Entry exclude="android.hardware.cts.CameraTest#testVideoSnapshot;android.hardware.cts.CameraGLTest#testCameraToSurfaceTextureMetadata;android.hardware.cts.CameraGLTest#testSetPreviewTextureBothCallbacks;android.hardware.cts.CameraGLTest#testSetPreviewTexturePreviewCallback" name="android.camera"/>
+  <Entry include="android.permission.cts.CameraPermissionTest;android.permission.cts.Camera2PermissionTest" name="android.permission"/>
+</TestPlan>

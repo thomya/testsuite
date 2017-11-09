@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry name="android.aadb"/>
+  <Entry name="android.bluetooth"/>
+  <Entry name="android.graphics"/>
+  <Entry name="android.graphics2"/>
+  <Entry name="android.hardware"/>
+  <Entry name="android.media"/>
+  <Entry name="android.nativemedia.sl"/>
+  <Entry name="android.nativemedia.xa"/>
+  <Entry name="android.net"/>
+  <Entry name="android.net.hostsidenetwork"/>
+  <Entry name="android.netlegacy22.api"/>
+  <Entry name="android.netlegacy22.permission"/>
+  <Entry name="android.opengl"/>
+  <Entry name="android.openglperf"/>
+  <Entry name="android.renderscript"/>
+  <Entry name="android.renderscriptlegacy"/>
+  <Entry name="android.telephony"/>
+  <Entry name="com.android.cts.dram"/>
+  <Entry name="com.android.cts.filesystemperf"/>
+  <Entry name="com.android.cts.jank"/>
+  <Entry name="com.android.cts.jank2"/>
+  <Entry name="com.android.cts.opengl"/>
+  <Entry name="com.android.cts.simplecpu"/>
+  <Entry name="com.android.cts.tvproviderperf"/>
+  <Entry name="com.android.cts.ui"/>
+  <Entry name="com.android.cts.uihost"/>
+  <Entry name="com.android.cts.videoperf"/>
+</TestPlan>

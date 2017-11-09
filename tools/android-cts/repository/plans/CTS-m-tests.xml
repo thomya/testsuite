@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry name="android.adminhostside"/>
+  <Entry name="android.alarmclock"/>
+  <Entry name="android.app.usage"/>
+  <Entry name="android.appwidget"/>
+  <Entry name="android.assist"/>
+  <Entry name="android.calllog"/>
+  <Entry exclude="android.hardware.cts.CameraTest#testVideoSnapshot;android.hardware.cts.CameraGLTest#testCameraToSurfaceTextureMetadata;android.hardware.cts.CameraGLTest#testSetPreviewTextureBothCallbacks;android.hardware.cts.CameraGLTest#testSetPreviewTexturePreviewCallback" name="android.camera"/>
+  <Entry name="android.core.tests.libcore.package.tzdata"/>
+  <Entry name="android.dpi2"/>
+  <Entry name="android.host.app.usage"/>
+  <Entry name="android.host.atrace"/>
+  <Entry name="android.host.dumpsys"/>
+  <Entry name="android.host.jdwpsecurity"/>
+  <Entry name="android.host.multiuser"/>
+  <Entry name="android.host.os"/>
+  <Entry name="android.host.trustedvoice"/>
+  <Entry name="android.leanbackjank"/>
+  <Entry name="android.libcorelegacy22"/>
+  <Entry name="android.midi"/>
+  <Entry name="android.net.hostsidenetwork"/>
+  <Entry name="android.netlegacy22.api"/>
+  <Entry name="android.netlegacy22.permission"/>
+  <Entry name="android.systemui"/>
+  <Entry name="android.telecom"/>
+  <Entry name="android.telecom2"/>
+  <Entry name="android.tests.cpptools"/>
+  <Entry name="android.transition"/>
+  <Entry name="android.uiautomator"/>
+  <Entry name="android.usescleartexttraffic-false"/>
+  <Entry name="android.usescleartexttraffic-true"/>
+  <Entry name="android.usescleartexttraffic-unspecified"/>
+  <Entry name="android.voiceinteraction"/>
+  <Entry name="android.voicesettings"/>
+  <Entry name="com.android.cts.tvproviderperf"/>
+</TestPlan>

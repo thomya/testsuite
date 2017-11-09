@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.tcl.test.tvinfo" appPackageName="tcl.test" name="CtsTvinfoTest" runner="android.test.InstrumentationTestRunner" version="1.0">
+<TestSuite name="com">
+<TestSuite name="tcl">
+<TestSuite name="test">
+<TestSuite name="tvinfo">
+<TestCase name="TestTvinfo">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDeviceId" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testProjectId" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry include="android.hardware.cts.CameraTest#testVideoSnapshot;android.hardware.cts.CameraGLTest#testCameraToSurfaceTextureMetadata;android.hardware.cts.CameraGLTest#testSetPreviewTextureBothCallbacks;android.hardware.cts.CameraGLTest#testSetPreviewTexturePreviewCallback" name="android.camera"/>
+  <Entry include="android.media.cts.DecoderTest#testCodecResetsH264WithSurface;android.media.cts.StreamingMediaPlayerTest#testHLS" name="android.media"/>
+  <Entry include="android.net.cts.ConnectivityManagerTest#testStartUsingNetworkFeature_enableHipri;android.net.cts.DnsTest#testDnsWorks;android.net.cts.SSLCertificateSocketFactoryTest#testCreateSocket;android.net.cts.SSLCertificateSocketFactoryTest#test_createSocket_bind;android.net.cts.SSLCertificateSocketFactoryTest#test_createSocket_simple;android.net.cts.SSLCertificateSocketFactoryTest#test_createSocket_wrapping;android.net.cts.TrafficStatsTest#testTrafficStatsForLocalhost;android.net.wifi.cts.NsdManagerTest#testAndroidTestCaseSetupProperly" name="android.net"/>
+  <Entry include="android.security.cts.ListeningPortsTest#testNoRemotelyAccessibleListeningUdp6Ports;android.security.cts.ListeningPortsTest#testNoRemotelyAccessibleListeningUdpPorts" name="android.security"/>
+  <Entry include="android.webkit.cts.WebViewClientTest#testOnUnhandledKeyEvent" name="android.webkit"/>
+  <Entry include="com.android.cts.filesystemperf.RandomRWTest#testRandomRead;com.android.cts.filesystemperf.RandomRWTest#testRandomUpdate" name="com.android.cts.filesystemperf"/>
+</TestPlan>

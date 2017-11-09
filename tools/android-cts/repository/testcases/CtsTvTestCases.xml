@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="com.android.cts.tv" appPackageName="android.tv" name="CtsTvTestCases" runner="android.support.test.runner.AndroidJUnitRunner" runtimeHint="0" version="1.0">
+<TestSuite name="android">
+<TestSuite name="media">
+<TestSuite name="tv">
+<TestSuite name="cts">
+<TestCase name="BundledTvInputServiceTest">
+<Test name="testTune" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTuneStress" abis="armeabi-v7a, arm64-v8a" timeout="5" />
+</TestCase>
+<TestCase name="HardwareSessionTest">
+<Test name="testHardwareProxyTvInputService" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvContentRatingTest">
+<Test name="testCreateRating" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testFlattenAndUnflatten" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvContractTest">
+<Test name="testAllEpgPermissionBlocksSelectionOnDelete_Channels" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSelectionOnDelete_Programs" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSelectionOnQuery_Channels" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSelectionOnQuery_Programs" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSelectionOnUpdate_Channels" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSelectionOnUpdate_Programs" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSortOrderOnQuery_Channels" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAllEpgPermissionBlocksSortOrderOnQuery_Programs" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testChannelLogo" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testChannelsGetVideoResolution" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testChannelsTable" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testDefaultValues" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testProgramsGenresDecode" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testProgramsGenresEncode" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testProgramsScheduleOverlap" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testProgramsTable" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvInputInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetIntentForSettingsActivity" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetIntentForSetupActivity" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetTypeForTuner" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testLoadIcon" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testLoadLabel" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTunerHasNoParentId" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTunerIsNotPassthroughInput" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTvInputInfoOp" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvInputManagerTest">
+<Test name="testGetInputState" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetTvInputInfo" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testGetTvInputList" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testInputAddedAndRemoved" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsParentalControlsEnabled" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testIsRatingBlocked" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testRegisterUnregisterCallback" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvInputServiceTest">
+<Test name="testTvInputService" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvTrackInfoTest">
+<Test name="testAndroidTestCaseSetupProperly" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testAudioTrackInfoOp" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSubtitleTrackInfoOp" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testVideoTrackInfoOp" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+<TestCase name="TvViewTest">
+<Test name="testConnectionFailed" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testConstructor" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testOnUnhandledInputEventListener" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testSimpleTune" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testTrackChange" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+<TestSuite name="tv">
+<TestSuite name="settings">
+<TestSuite name="cts">
+<TestCase name="SettingsLeanbackTest">
+<Test name="testLeanbackLauncherIntentCategory" abis="armeabi-v7a, arm64-v8a" />
+<Test name="testLeanbackSettingsIntentCategory" abis="armeabi-v7a, arm64-v8a" />
+</TestCase>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestSuite>
+</TestPackage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan version="1.0">
+  <Entry include="android.alarmclock.cts.DismissAlarmTest#testAll;android.alarmclock.cts.SetAlarmTest#testAll;android.alarmclock.cts.SnoozeAlarmTest#testAll" name="android.alarmclock"/>
+  <Entry include="android.assist.cts.AssistantContentViewTest;android.assist.cts.ExtraAssistDataTest;android.assist.cts.FocusChangeTest;android.assist.cts.LargeViewHierarchyTest;android.assist.cts.ScreenshotTest;android.assist.cts.TextViewTest;android.assist.cts.WebViewTest" name="android.assist"/>
+  <Entry include="android.calllog.cts.CallLogBackupTest#testSingleCallBackup" name="android.calllog"/>
+  <Entry include="android.telecom.cts.ExtendedInCallServiceTest#testAddNewOutgoingCallAndThenDisconnect;android.telecom.cts.RemoteConferenceTest#testRemoteConferenceCallbacks_ConferenceableConnections" name="android.telecom"/>
+  <Entry include="android.transition.cts.ChangeScrollTest#testChangeScroll" name="android.transition"/>
+  <Entry include="android.voicesettings.cts.ZenModeTest#testAll" name="android.voicesettings"/>
+</TestPlan>

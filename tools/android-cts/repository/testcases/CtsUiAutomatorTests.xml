@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage appNameSpace="android.uiautomator" appPackageName="android.uiautomator" name="CtsUiAutomatorTests" targetBinaryName="CtsUiAutomatorApp" targetNameSpace="com.android.cts.uiautomator" testType="uiAutomator" jarPath="CtsUiAutomatorTests.jar" version="1.0">
+</TestPackage>
