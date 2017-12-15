@@ -80,7 +80,8 @@ public class TestSourceRecord extends AndroidTestCase{
         assertTrue(!"".equals(bootPackage));
         assertTrue(!"".equals(bootTo));
         assertTrue(bootfromui.equals(bootTo));
-        assertTrue(bootPackage.equals(TopActivity));
+	if(bootTo.equals("ui"))
+            assertTrue(bootPackage.equals(TopActivity));
         
         injectKey(KeyEvent.KEYCODE_HOME);
         
@@ -100,7 +101,8 @@ public class TestSourceRecord extends AndroidTestCase{
         assertTrue(!"".equals(bootPackage));
         assertTrue(!"".equals(bootTo));
         assertTrue(bootfromui.equals(bootTo));
-        assertTrue(bootPackage.equals(TopActivity));
+	if(bootTo.equals("ui"))
+            assertTrue(bootPackage.equals(TopActivity));
     }
 
     private String getProperty(String key){

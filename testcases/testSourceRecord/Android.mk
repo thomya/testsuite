@@ -12,7 +12,7 @@ LOCAL_MULTILIB := both
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_CERTIFICATE := platform
 
-LOCAL_PACKAGE_NAME := CtsTclSourceRecordTest
+LOCAL_PACKAGE_NAME := TtsSourceRecordTest
 
 LOCAL_SDK_VERSION := 16
 
